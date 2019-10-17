@@ -1,0 +1,161 @@
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+body {
+    font-family
+}
+
+#header {
+    padding: 2px;
+    position: unset;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+}
+
+.margin_15px {
+
+    Margin: 15px;
+
+}
+
+
+#header_brand_text {
+    line-height: 0.5;
+}
+
+.link_with_no_text_decoration {
+    text-decoration: none;
+}
+
+#about_container {
+    height: 100vh;
+    padding-top: 12%;
+    position: unset;
+    top: 60px;
+    background: black;
+
+}
+
+#about_photo {
+    height: 50%;
+    background-image: url('./resources/IMG-6016.PNG');
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Testimonial_Scroll {}
+
+#testimonies_container {
+    background-color: #2887c7;
+    border: 1px solid white;
+    margin-bottom: 30px"
+
+}
+
+.testimonial_card {
+    border: 1px solid white;
+    margin-bottom: 30px;
+    width: 25em;
+    margin: 5px;
+    background-color: burlywood;
+    padding: 15px;
+    ;
+}
+
+.inline_element {
+    display: inline;
+}
+
+.margin_2px {
+    margin: 2px;
+}
+
+.no_list_style {
+    list-style: none;
+}
+
+.padding_15px {
+    padding: 15px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.white_color {
+    color: white
+}
+
+.horizontally_centered_text {
+    text-align: center;
+}
+
+.flex_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+@media only screen and (max-width:423px) {
+    .testimonial_card {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 423px) and (max-width:500px) {
+    .testimonial_card {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width:600px) {
+
+    .testimonial_card {
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width:700px) {
+
+    .flex_container {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        justify-content: flex-start;
+
+    }
+}
+
+.dropdown-menu {
+    font-display: #2887c7;
+    margin: 5px;
+    background-color: #2887c7;
+}
+
+.dropdown-item {
+    color: #2887c7;
+    margin: 5px;
+
+
+}
+
+.horizontally_centered_text {
+    color: white;
+}
+
+.user_image_container {
+    display: flex;
+    justify-content: center
+}
+
+.bg-dark {
+    background-color: black;
+}
