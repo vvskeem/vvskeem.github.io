@@ -18,7 +18,13 @@
 
     <div class="pos-f-t">
         <div class="collapse" id="navbarToggleExternalContent" style="">
+
+
+
+
             <section id="header">
+
+
                 <!-- 1st section, 1 anchor tag and 1 div-->
                 <!-- 
             - line height of 0.5
@@ -30,7 +36,9 @@
                     <p class="margin_15px">Shakeem Albouy</p>
                     <p class="margin_15px">Web Developer</p>
                 </a>
+                <p>
 
+                </p>
                 <!-- inner div -->
                 <!-- 
             - align its text in the center
@@ -41,19 +49,31 @@
                     <!-- 
                 - remove the bullet points from its children
              -->
-                    <ul class="no_list_style">
-                        <!-- 
-                    - align the 2 list items to be on the same line horizontally and give each a margin of 2px
-                 -->
+                    <ol class="no_list_style">
+
+                        <li class="inline_element margin_2px">
+
+                            <a href="#Diamond_container" class="white_color">Invest In Diamonds</a>
+                        </li>
+
+                        <li></li>
+                        <li></li>
+
                         <li class="inline_element margin_2px">
                             <!-- In the 1st list item, create an anchor tag with an href of # and with "About" as its content -->
                             <a href="#about_container" class="white_color">About</a>
                         </li>
+                        <li></li>
+                        <li></li>
+                        <li class="inline_element margin_2px">
+                            <!-- In the 1st list item, create an anchor tag with an href of # and with "About" as its content -->
+                            <a href="#about_Brand" class="white_color">The Brand</a>
+
                         <li class="inline_element margin_2px">
                             <!-- In the 2nd list item, create an anchor tag with an href of # and with "Testimonials" as its content -->
-                            <a href="#testimonies_container" class="white_color">Testimonials</a>
+                            <a href="#Merch_container" class="white_color">Merch</a>
                         </li>
-                    </ul>
+                    </ol>
                 </div>
             </section>
 
@@ -100,16 +120,54 @@
             </p>
 
         </div>
+
     </section>
 
     <section id="testimonies_container" class="padding_15px">
+
+
         <!-- Create an h2 with "Testimonials" as its content -->
-        <h2 class="white_color horizontally_centered_text">Testimonials</h2>
+        <h2 class="white_color horizontally_centered_text">Very Very Special </h2>
+        <div class="card-group" id="about_Brand">
+            <div class="card">
+                <img src="resources/vvslogo-1.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">The Brand</h5>
+                    <p class="card-text">Who I am & What I believe in </p>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+            <div class="card" id="Merch_container">
+                <img src="resources/T Shirt-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Merch</h5>
+                    <p class="card-text">Order the newest merch right now!
+                    </p>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+            <div class="card" id="Diamond_container">
+                <img src="resources/vvs circle logo-1.jpg" class="card-img-top" alt="VVS Logo">
+                <div class="card-body">
+                    <h5 class="card-title">Diamonds</h5>
+                    <p class="card-text">
+                        What do you really know about diamonds?
+
+                    </p>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!----
 
         <div class="testimonies_carousel">
             <div id="testimonies">
                 <!-- In the 3rd section, go to http://testimonial-generator.com/index.php, create 10 testimanials for "firstname web developer" and create 10 paragphs for each testimonial-->
-                <!-- Use Bootstrap card for each card -->
+        <!-- Use Bootstrap card for each card --
                 <div class="card testimonial_card padding_15px" style="width: 18rem;">
                     <div class="card-body">
                         <div class="user_image_container"><img class="user_image"
@@ -210,7 +268,7 @@
                     </div>
                 </div>
 
-                <div class="card testimonial_card padding_15px" style="width: 18rem;">
+               <div class="card testimonial_card padding_15px" style="width: 18rem;">
                     <div class="card-body">
                         <div class="user_image_container"><img class="user_image"
                                 src="https://randomuser.me/api/portraits/women/24.jpg"></div>
@@ -222,8 +280,57 @@
                 </div>
 
             </div>
+        </div> -->
+
+    </section>
+    <section>
+
+        <div>
+
+
         </div>
 
+        <div>
+
+        </div>
+
+
+    </section>
+
+
+    <Section>
+
+
+    </Section>
+    <section>
+        <form>
+            <div class="form-row align-items-center">
+                <div class="col-auto">
+                    <label class="sr-only" for="inlineFormInput">Name</label>
+                    <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Jane Doe">
+                </div>
+                <div class="col-auto">
+                    <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">@</div>
+                        </div>
+                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="form-check mb-2">
+                        <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+                        <label class="form-check-label" for="autoSizingCheck">
+                            Remember me
+                        </label>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                </div>
+            </div>
+        </form>
     </section>
 
     <!-- Linking JS that Bootstrap requires to work properly -->

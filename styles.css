@@ -18,11 +18,17 @@ body {
 }
 
 #header {
+    display: contents;
     padding: 2px;
     position: fixed;
     width: 100%;
     z-index: 1;
     background-color: black;
+}
+
+.pos-f-t {
+    background-color: black;
+
 }
 
 .margin_15px {
@@ -56,14 +62,15 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-image: url('./resources/IMG-6016.PNG');
+
 }
 
 
 #testimonies_container {
-    background-color: white;
+    background-color: darkslategrey;
     border: 5px solid black;
     margin-bottom: 30px;
-    padding-top: 6rem;
+    padding-top: 1rem;
 
 }
 
@@ -119,7 +126,7 @@ body {
 }
 
 .white_color {
-    color: chartreuse
+    color: white;
 }
 
 .horizontally_centered_text {
@@ -132,6 +139,15 @@ body {
     justify-content: space-evenly;
 }
 
+#Background-form-color {
+    background-color: darkslategrey;
+    font-size: medium;
+}
+
+.form {
+    text-align: -webkit-center;
+    padding: 5em 15em;
+}
 
 @media only screen and (max-width:423px) {
     .testimonial_card {
@@ -200,10 +216,12 @@ body {
     }
 
     .card-body {
+        background-color: antiquewhite;
         -ms-flex: 1 1 auto;
         flex: 1 1 auto;
         padding: 1.25rem;
-        background: moccasin;
+
         border-color: black;
+
     }
 }
